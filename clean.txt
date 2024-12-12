@@ -1,0 +1,6 @@
+Cleaning Process for OLD-lab0-data.csv:
+Skipped lines with parsing errors.
+Converted prices.amountMin and prices.amountMax to numeric values.
+Removed rows where both prices.amountMin and prices.amountMax were NaN.
+Filled missing values in prices.amountMin with prices.amountMax.
+Calculated a new column average_price based on the cleaned prices.
